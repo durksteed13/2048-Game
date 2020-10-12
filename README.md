@@ -1,4 +1,4 @@
-#2048-Game by Durk Steed Jr.
+# A 2048-Game by Durk Steed Jr.
 
 *This is the source code for a 2048 game I made in Javascript, HTML, and CSS*
 
