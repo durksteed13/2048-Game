@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>426 2048</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <div id="header"><h1 style="margin: 0px;">a 2048 game</h1>by Durk Steed Jr.</div>
+        <div id="notify-container"></div>
+        <div id="game-container">
+            <div id="game"></div>
+        </div>
+        <div id="game-controller">
+            <div class="game-display-info" id="score-game">Score</div>
+            <div class="game-display-info" id="restart-game-btn">Restart</div>
+        </div>
+
+        <div id="instructions-container">
+            <div id="instructions">How to Play: Use the arrow keys to move the tiles on the board. Tiles with the same number merge into one when they are touching. Add the tiles up to reach 2048!</div>
+        </div>
+
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="index.js" type="module"></script>
+        <script src="engine/game.js" type="module"></script>
+    </body>
+</html>
