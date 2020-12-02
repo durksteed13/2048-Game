@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "console": "node run_in_console.js",
-    "start": "npx browser-sync start -sw"
+    "start": "browser-sync start --no-open --server --files \"dist/css/*.css, dist/js/*.js, **/*.html, !node_modules/**/*.html\""
   },
   "author": "",
   "license": "ISC",
