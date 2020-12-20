@@ -1,17 +1,17 @@
 {
   "name": "2048",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
+  "main": "app.js",
   "scripts": {
     "console": "node run_in_console.js",
-    "start": "browser-sync start --no-open --server --files \"dist/css/*.css, dist/js/*.js, **/*.html, !node_modules/**/*.html\""
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
     "keypress": "^0.2.1"
   },
-  "description": ""
 }
